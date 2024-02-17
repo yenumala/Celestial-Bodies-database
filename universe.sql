@@ -294,44 +294,44 @@ INSERT INTO public.galaxy VALUES (6, 'galaxy6', NULL, 34534324, 936);
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.moon VALUES (1, NULL, 'moon1', true, 'moon1', NULL, NULL);
-INSERT INTO public.moon VALUES (2, NULL, 'moon2', true, 'moon2', NULL, NULL);
-INSERT INTO public.moon VALUES (3, NULL, 'moon3', false, 'moon3', NULL, NULL);
-INSERT INTO public.moon VALUES (4, NULL, 'moon4', true, 'moon4', NULL, NULL);
-INSERT INTO public.moon VALUES (5, NULL, 'moon5', false, 'moon5', NULL, NULL);
-INSERT INTO public.moon VALUES (6, NULL, 'moon6', true, 'moon6', NULL, NULL);
-INSERT INTO public.moon VALUES (7, NULL, 'moon7', true, 'moon7', NULL, NULL);
-INSERT INTO public.moon VALUES (8, NULL, 'moon8', false, 'moon8', NULL, NULL);
-INSERT INTO public.moon VALUES (9, NULL, 'moon9', true, 'moon9', NULL, NULL);
-INSERT INTO public.moon VALUES (10, NULL, 'moon10', false, 'moon10', NULL, NULL);
-INSERT INTO public.moon VALUES (11, NULL, 'moon11', true, 'moon11', NULL, NULL);
-INSERT INTO public.moon VALUES (12, NULL, 'moon12', true, 'moon12', NULL, NULL);
-INSERT INTO public.moon VALUES (13, NULL, 'moon13', false, 'moon13', NULL, NULL);
-INSERT INTO public.moon VALUES (14, NULL, 'moon14', true, 'moon14', NULL, NULL);
-INSERT INTO public.moon VALUES (15, NULL, 'moon15', false, 'moon15', NULL, NULL);
-INSERT INTO public.moon VALUES (16, NULL, 'moon16', true, 'moon16', NULL, NULL);
-INSERT INTO public.moon VALUES (17, NULL, 'moon17', true, 'moon17', NULL, NULL);
-INSERT INTO public.moon VALUES (18, NULL, 'moon18', false, 'moon18', NULL, NULL);
-INSERT INTO public.moon VALUES (19, NULL, 'moon19', true, 'moon19', NULL, NULL);
-INSERT INTO public.moon VALUES (20, NULL, 'moon20', false, 'moon20', NULL, NULL);
+INSERT INTO public.moon VALUES (1, 1, 'moon1', true, 'moon1', NULL, NULL);
+INSERT INTO public.moon VALUES (2, 1, 'moon2', true, 'moon2', NULL, NULL);
+INSERT INTO public.moon VALUES (3, 1, 'moon3', false, 'moon3', NULL, NULL);
+INSERT INTO public.moon VALUES (4, 1, 'moon4', true, 'moon4', NULL, NULL);
+INSERT INTO public.moon VALUES (5, 1, 'moon5', false, 'moon5', NULL, NULL);
+INSERT INTO public.moon VALUES (6, 1, 'moon6', true, 'moon6', NULL, NULL);
+INSERT INTO public.moon VALUES (7, 1, 'moon7', true, 'moon7', NULL, NULL);
+INSERT INTO public.moon VALUES (8, 1, 'moon8', false, 'moon8', NULL, NULL);
+INSERT INTO public.moon VALUES (9, 1, 'moon9', true, 'moon9', NULL, NULL);
+INSERT INTO public.moon VALUES (10, 1, 'moon10', false, 'moon10', NULL, NULL);
+INSERT INTO public.moon VALUES (11, 1, 'moon11', true, 'moon11', NULL, NULL);
+INSERT INTO public.moon VALUES (12, 1, 'moon12', true, 'moon12', NULL, NULL);
+INSERT INTO public.moon VALUES (13, 1, 'moon13', false, 'moon13', NULL, NULL);
+INSERT INTO public.moon VALUES (14, 1, 'moon14', true, 'moon14', NULL, NULL);
+INSERT INTO public.moon VALUES (15, 1, 'moon15', false, 'moon15', NULL, NULL);
+INSERT INTO public.moon VALUES (16, 1, 'moon16', true, 'moon16', NULL, NULL);
+INSERT INTO public.moon VALUES (17, 1, 'moon17', true, 'moon17', NULL, NULL);
+INSERT INTO public.moon VALUES (18, 1, 'moon18', false, 'moon18', NULL, NULL);
+INSERT INTO public.moon VALUES (19, 1, 'moon19', true, 'moon19', NULL, NULL);
+INSERT INTO public.moon VALUES (20, 1, 'moon20', false, 'moon20', NULL, NULL);
 
 
 --
 -- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.planet VALUES (1, NULL, 'Earth', true, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES (2, NULL, 'planet1', false, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES (3, NULL, 'Earth', false, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES (4, NULL, 'planet1', false, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES (5, NULL, 'Earth3', false, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES (6, NULL, 'planet6', false, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES (7, NULL, 'planet7', false, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES (8, NULL, 'planet8', false, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES (9, NULL, 'planet9', false, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES (10, NULL, 'planet10', false, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES (11, NULL, 'planet11', false, NULL, NULL, NULL);
-INSERT INTO public.planet VALUES (12, NULL, 'planet12', false, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (1, 1, 'Earth', true, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (2, 1, 'planet1', false, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (3, 1, 'Earth', false, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (4, 1, 'planet1', false, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (5, 1, 'Earth3', false, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (6, 1, 'planet6', false, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (7, 1, 'planet7', false, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (8, 1, 'planet8', false, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (9, 1, 'planet9', false, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (10, 1, 'planet10', false, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (11, 1, 'planet11', false, NULL, NULL, NULL);
+INSERT INTO public.planet VALUES (12, 1, 'planet12', false, NULL, NULL, NULL);
 
 
 --
@@ -371,7 +371,7 @@ SELECT pg_catalog.setval('public.moon_moon_id_seq', 20, true);
 -- Name: planet_planet_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.planet_planet_id_seq', 12, true);
+SELECT pg_catalog.setval('public.planet_planet_id_seq', 15, true);
 
 
 --
@@ -488,4 +488,8 @@ ALTER TABLE ONLY public.planet
 --
 -- PostgreSQL database dump complete
 --
+
+
+
+
 
